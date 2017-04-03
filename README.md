@@ -7,6 +7,7 @@ MatConvNet,    caffe with matcaffe interface
 # usage
 you can run the function in matlab to get a caffe net which convert from a matconvnet model;
           caffe_net = convertNet(caffe_model,  mat_weight,  savepath)
+          
     output:
     
         caffe_net: the caffe net
@@ -17,6 +18,8 @@ you can run the function in matlab to get a caffe net which convert from a matco
         
         mat_weight: the matconvnet model, the simmplenn structure and DAG structure both are allowed, but if the model is simplenn, you             should using "net = dagnn.DagNN.fromSimpleNN(net, 'canonicalNames', true) ;" to obtain the DAG structure.
         
-    savepath: the savepath of caffe model
+    savepath: 
+    
+        the savepath of caffe model
         
     
