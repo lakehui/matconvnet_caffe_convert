@@ -6,6 +6,7 @@ MatConvNet,    caffe with matcaffe interface
 
 # usage
 you can run the function in matlab to get a caffe net which convert from a matconvnet model;
+
     caffe_net = convertNet(caffe_model,  mat_weight,  savepath)
           
     output:
