@@ -19,6 +19,6 @@ you can run the function in matlab to get a caffe net which is converted from a 
         
         mat_weight: the matconvnet model, the simmplenn structure and DAG structure both are allowed, but if the model is simplenn, you             should using "net = dagnn.DagNN.fromSimpleNN(net, 'canonicalNames', true) ;" to obtain the DAG structure.
         
-    savepath: the savepath of caffe model
+        savepath: the savepath of caffe model
         
     
